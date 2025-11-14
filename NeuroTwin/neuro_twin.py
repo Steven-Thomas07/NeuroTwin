@@ -1,9 +1,11 @@
 import os
+import sys
+sys.path.append(os.path.dirname(__file__))
 from twin.builder import DigitalTwin
 from dashboard.app import run_dashboard
 
 print("NeuroTwin: Building Your Brain Digital Twin...")
-twin = DigitalTwin("NeuroTwin/data/sample_mood_log.csv")
+twin = DigitalTwin(os.path.join(os.path.dirname(__file__), "data", "sample_mood_log.csv"))
 twin.build()
 risk = twin.predict_depression()
 print(f"7-Day Depression Risk: {risk}%")

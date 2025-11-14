@@ -5,3 +5,8 @@ numpy
 pyttsx3
 openpyxl
 fpdf2
+kaleido
+webrtcvad
+kaleido
+webrtcvad
+altair==5.3.0

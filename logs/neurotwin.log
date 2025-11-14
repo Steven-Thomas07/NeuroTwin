@@ -1,2 +1,748 @@
 INFO:root:Digital Twin Built: 5 days of mood data
 INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp9llwyxi6.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpud34f3an.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpud34f3an
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp9llwyxi6/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 4AAB
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab 4AAB before return.
+INFO:kaleido.kaleido:Putting tab 4AAB back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp862bch87.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp_ax4mnwp.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmp_ax4mnwp
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp862bch87/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E10A
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_58.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_58.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_58.png.
+INFO:kaleido.kaleido:Reloading tab E10A before return.
+INFO:kaleido.kaleido:Putting tab E10A back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpvqeiaiv0.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpurv8b1ps.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpurv8b1ps
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpvqeiaiv0/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got DCCD
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpr0gxbvyo.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpxp0r8fln.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpxp0r8fln
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpqw7_cw2j.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpscl0zbe5.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpscl0zbe5
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpr0gxbvyo/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpjaz6sej_.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmphfmfetgp.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmphfmfetgp
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpqw7_cw2j/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpjaz6sej_/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab DCCD before return.
+INFO:kaleido.kaleido:Putting tab DCCD back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 14B9
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E962
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got EBB2
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab 14B9 before return.
+INFO:kaleido.kaleido:Putting tab 14B9 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab E962 before return.
+INFO:kaleido.kaleido:Putting tab E962 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab EBB2 before return.
+INFO:kaleido.kaleido:Putting tab EBB2 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpxtyv_dt7.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpmau1gvox.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpmau1gvox
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpxtyv_dt7/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp1_ubt06m.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp2tey6ac3.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmp2tey6ac3
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp1_ubt06m/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpdb6mb__k.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpaemmr1ng.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpaemmr1ng
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp4ay2j51m.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp5efl73db.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmp5efl73db
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpdb6mb__k/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpqgnpz2up.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpc6zvi92d.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpc6zvi92d
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp4ay2j51m/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpqgnpz2up/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 6E6B
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 6331
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got A2FA
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E4DF
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 5581
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_54.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab 6E6B before return.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab 6331 before return.
+INFO:kaleido.kaleido:Putting tab 6E6B back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido.kaleido:Putting tab 6331 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab A2FA before return.
+INFO:kaleido.kaleido:Putting tab A2FA back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab 5581 before return.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_54.png.
+INFO:kaleido.kaleido:Reloading tab E4DF before return.
+INFO:kaleido.kaleido:Putting tab 5581 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido.kaleido:Putting tab E4DF back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:root:Digital Twin Built: 5 days of mood data
+2025-11-14 07:37:07,444 - Digital Twin Built: Risk = 46.51% from 3 entries
+2025-11-14 08:13:55,409 - Task exception was never retrieved
+future: <Task finished name='Task-7074' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at c:\Users\Steven S\Desktop\final1\.venv\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "c:\Users\Steven S\Desktop\final1\.venv\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Steven S\Desktop\final1\.venv\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:root:Digital Twin Built: 5 days of mood data
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpqtn48uc6.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmplkztpv0y.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmplkztpv0y
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpqtn48uc6/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp5ljnru5b.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp1z5m5ep9.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmp1z5m5ep9
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp5ljnru5b/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp4v310v2_.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpc1obs7ph.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpc1obs7ph
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp4v310v2_/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpdqdqcraf.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpda5hypwz.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpda5hypwz
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got E920
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpqcmtq_64.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpwukoa4dr.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpwukoa4dr
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpdqdqcraf/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmphxqj4509.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpsvdf6ewb.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpsvdf6ewb
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpqcmtq_64/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmphxqj4509/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab E920 before return.
+INFO:kaleido.kaleido:Putting tab E920 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 9564
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 7E08
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 27A6
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 9564 before return.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 7E08 before return.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 1F28
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Putting tab 9564 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:kaleido.kaleido:Putting tab 7E08 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 7656
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 27A6 before return.
+INFO:kaleido.kaleido:Putting tab 27A6 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 1F28 before return.
+INFO:kaleido.kaleido:Putting tab 1F28 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 7656 before return.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:kaleido.kaleido:Putting tab 7656 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp4cnea8t_.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpzvzhukps.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpzvzhukps
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp4cnea8t_/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 8430
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 8430 before return.
+INFO:kaleido.kaleido:Putting tab 8430 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpovmiozdi.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpkl_i7fgm.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpkl_i7fgm
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpovmiozdi/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpyntll6di.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpppp34mf3.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpppp34mf3
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp572y76tf.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpexl8tpzn.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpexl8tpzn
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmpyntll6di/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp572y76tf/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got F81B
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 566B
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 4B22
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 566B before return.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab F81B before return.
+INFO:kaleido.kaleido:Putting tab 566B back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido.kaleido:Putting tab F81B back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 4B22 before return.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:kaleido.kaleido:Putting tab 4B22 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.browsers.chromium:Chromium init'ed with kwargs {}
+INFO:choreographer.browsers.chromium:Found chromium path: C:\Program Files\Google\Chrome\Application\chrome.exe
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmp03nzwtjs.
+INFO:choreographer.browser_async:Opening browser.
+INFO:choreographer.utils._tmpfile:Temp directory created: C:\Users\STEVEN~1\AppData\Local\Temp\tmpoocc18ki.
+INFO:choreographer.browsers.chromium:Temporary directory at: C:\Users\STEVEN~1\AppData\Local\Temp\tmpoocc18ki
+INFO:kaleido.kaleido:Conforming 1 to file:///C:/Users/STEVEN~1/AppData/Local/Temp/tmp03nzwtjs/index.html
+INFO:kaleido.kaleido:Waiting on all navigates
+INFO:kaleido.kaleido:All navigates done, putting them all in queue.
+INFO:kaleido.kaleido:Getting tab from queue (has 1)
+INFO:kaleido.kaleido:Got 6754
+INFO:kaleido._kaleido_tab:Processing Brain_Digital_Twin__Depression_Risk_52.png
+INFO:kaleido._kaleido_tab:Sending big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido._kaleido_tab:Sent big command for Brain_Digital_Twin__Depression_Risk_52.png.
+INFO:kaleido.kaleido:Reloading tab 6754 before return.
+INFO:kaleido.kaleido:Putting tab 6754 back (queue size: 0).
+INFO:kaleido.kaleido:Waiting for all cleanups to finish.
+INFO:kaleido.kaleido:Exiting Kaleido
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.browser_async:Closing browser.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.
+INFO:kaleido.kaleido:Cancelling tasks.
+INFO:kaleido.kaleido:Exiting Kaleido/Choreo
+INFO:choreographer.utils._tmpfile:TemporaryDirectory.cleanup() worked.
+INFO:choreographer.utils._tmpfile:shutil.rmtree worked.

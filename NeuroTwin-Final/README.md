@@ -8,15 +8,8 @@
 - Risk Trend Chart
 - Therapy Recommendations
 - PDF Report with Brain Image
-- Voice Sentiment Analysis
+- Real Mic Input with Sentiment Analysis
 - 100% Offline & Private
-
-## New Features
-- Live mood entry (no CSV needed)
-- 7-day risk trend chart
-- Therapy recommendations
-- PDF export with 3D brain snapshot
-- Voice tone analysis (coming)
 
 ## Run
 ```bash
@@ -29,10 +22,3 @@ Upload 5 days of mood → AI predicts 82% depression risk in 7 days.
 See your amygdala light up red → Hear voice alert.
 All offline, private, deployable in clinics.
 This is the future of mental health."
-
-## Online Cloud Version
-Live demo: [https://neurotwin-cloud.streamlit.app](https://neurotwin-cloud.streamlit.app)
-GitHub: [https://github.com/Steven-Thomas07/NeuroTwin-Cloud](https://github.com/Steven-Thomas07/NeuroTwin-Cloud)
-
-## Demo
-Upload `sample_mood_log.csv` → See red amygdala → Hear voice alert if risk >75%.

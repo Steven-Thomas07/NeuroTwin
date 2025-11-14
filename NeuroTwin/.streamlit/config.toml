@@ -1,0 +1,7 @@
+[server]
+runOnSave = false
+headless = false
+port = 8501
+
+[logger]
+level = "warning"

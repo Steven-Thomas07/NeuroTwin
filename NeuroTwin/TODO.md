@@ -1,15 +1,14 @@
-# NeuroTwin Project Creation TODO
+# TODO: Add 5 Panel-Exploding Features to NeuroTwin Dashboard
 
-- [x] Create requirements.txt
-- [x] Create neuro_twin.py
-- [x] Create twin/builder.py
-- [x] Create predictor/risk.py
-- [x] Create brain/renderer.py
-- [x] Create dashboard/app.py
-- [x] Create data/sample_mood_log.csv
-- [x] Create run.bat
-- [x] Create run.sh
-- [x] Create README.md
-- [x] Create config/settings.json
-- [x] Create empty files: brain/model.glb, models/lstm_brain.pt, logs/neurotwin.log, tests/test_risk.py, docs/report.docx, docs/paper.tex
-- [x] Test the project by running run.bat or run.sh
+## Steps to Complete
+- [x] Edit NeuroTwin/dashboard/app.py to add Live Mood Entry Form after uploader
+- [x] Add 7-Day Risk Trend Chart code after risk calculation
+- [x] Add Therapy Recommendation Engine based on risk level
+- [x] Enhance Export Full Report button to include 3D Brain Screenshot (requires kaleido)
+- [x] Add Voice Sentiment Analysis button (mock implementation)
+- [x] Update NeuroTwin/requirements.txt to add kaleido and webrtcvad
+- [x] Update NeuroTwin/README.md with new features section
+- [x] Install new dependencies (kaleido, webrtcvad)
+- [x] Test the app by running streamlit run dashboard/app.py
+- [x] Create NeuroTwin-Final project with all fixes
+- [x] Run NeuroTwin-Final app successfully
