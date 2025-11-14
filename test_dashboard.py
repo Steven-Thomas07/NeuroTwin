@@ -1,15 +1,3 @@
-"""
-NeuroTwin Dashboard Testing Script
-Tests all major features:
-1. Live mood form entries
-2. Trend chart updates
-3. Therapy recommendations at different risk levels
-4. PDF export with brain image
-5. Voice analysis button
-6. CSV upload functionality
-7. Runtime error checking
-"""
-
 import requests
 import time
 import json

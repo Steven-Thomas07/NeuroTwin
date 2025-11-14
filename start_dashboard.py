@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-"""
-Launch NeuroTwin Dashboard without interactive prompts
-"""
+
 import subprocess
 import sys
 import os

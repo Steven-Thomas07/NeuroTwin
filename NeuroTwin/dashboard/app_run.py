@@ -163,7 +163,7 @@ with col2:
 
 # === 7. REAL MIC INPUT (Web Speech API) ===
 with st.expander("🎤 **Speak Your Mood (Real Voice Detection)**"):
-    st.info("Click 'Speak Now' → Allow mic → Say: 'I'm feeling anxious'")
+    st.info("Click 'Speak Now' → Allow mic → Say: 'I am feeling anxious'")
     
     speech_html = """
     <div id="result" style="font-size:18px; margin:10px 0;"></div>
