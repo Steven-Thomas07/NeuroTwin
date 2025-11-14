@@ -137,25 +137,23 @@ with col1:
 
     if st.button("📄 Export Full Report (PDF)"):
         try:
-            fig = render_brain(risk)
-            fig.write_image("brain.png")
-            
             pdf = FPDF()
             pdf.add_page()
             pdf.set_font("Arial", 'B', 16)
             pdf.cell(0, 10, "NeuroTwin Report", ln=1, align='C')
             pdf.ln(8)
             pdf.set_font("Arial", size=12)
-            pdf.cell(0, 10, f"Risk: {risk}%", ln=1)
-            pdf.cell(0, 10, f"Avg Stress: {avg_stress:.1f}", ln=1)
-            pdf.cell(0, 10, f"Avg Sleep: {avg_sleep:.1f} hrs", ln=1)
+            pdf.cell(0, 10, f"Risk Level: {risk}%", ln=1)
+            pdf.cell(0, 10, f"Average Stress: {avg_stress:.1f}/10", ln=1)
+            pdf.cell(0, 10, f"Average Sleep: {avg_sleep:.1f} hours", ln=1)
             pdf.ln(5)
-            pdf.image("brain.png", x=10, w=180)
+            pdf.set_font("Arial", 'I', 10)
+            pdf.multi_cell(0, 5, f"Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             pdf.output("NeuroTwin_Report.pdf")
             
             with open("NeuroTwin_Report.pdf", "rb") as f:
-                st.download_button("Download PDF", f.read(), "NeuroTwin_Report.pdf", "application/pdf")
-            st.success("Report ready!")
+                st.download_button("📥 Download PDF Report", f.read(), "NeuroTwin_Report.pdf", "application/pdf")
+            st.success("✅ PDF ready to download!")
         except Exception as e:
             st.error(f"PDF error: {e}")
 
