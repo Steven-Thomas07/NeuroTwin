@@ -1,13 +1,5 @@
-streamlit>=1.10.0
+streamlit>=1.28
+plotly>=5.15
 pandas
 numpy
-plotly
 kaleido
-pyttsx3
-fpdf
-streamlit-webrtc
-speech_recognition
-aiortc
-av
-cryptography
-pyopenssl
