@@ -1,5 +1,4 @@
 import streamlit as st
-import pyttsx3
 import pandas as pd
 import numpy as np
 import os
@@ -7,7 +6,6 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from brain.renderer import render_brain
 from twin.builder import DigitalTwin
-from fpdf import FPDF
 
 def run_dashboard(twin=None):
     st.set_page_config(page_title="NeuroTwin", layout="wide", page_icon="brain")
@@ -85,13 +83,9 @@ def run_dashboard(twin=None):
         st.metric("7-Day Depression Risk", f"{risk}%", delta="+8%")
         st.metric("Anxiety Level", "High" if risk > 70 else "Moderate")
         
-        if risk > 75:
-            st.error("CRISIS ALERT: Immediate intervention recommended")
-            if st.button("Play Voice Alert"):
-                engine = pyttsx3.init()
-                engine.say("Crisis detected. You are not alone. Please contact a therapist now.")
-                engine.runAndWait()
-                st.success("Voice alert played.")
+    if risk > 75:
+        st.error("CRISIS ALERT: Immediate intervention recommended")
+        st.warning("Please contact a therapist or emergency services immediately.")
 
     with col2:
         fig = render_brain(risk)
@@ -101,22 +95,11 @@ def run_dashboard(twin=None):
         st.write(twin.df.to_string())
 
     # Full report export
-    if st.button("📄 Export Full Report (PDF + 3D Brain)"):
+    if st.button("📄 Export Full Report (PNG + 3D Brain)"):
         try:
             # Save brain as PNG
             fig.write_image("brain_snapshot.png")
-
-            pdf = FPDF()
-            pdf.add_page()
-            pdf.set_font("Arial", 'B', 16)
-            pdf.cell(0, 10, "NeuroTwin Mental Health Report", ln=1, align='C')
-            pdf.ln(10)
-            pdf.set_font("Arial", size=12)
-            pdf.cell(0, 10, f"Risk: {risk}% | Date: {pd.Timestamp.now().strftime('%Y-%m-%d')}", ln=1)
-            if os.path.exists("brain_snapshot.png"):
-                pdf.image("brain_snapshot.png", x=10, y=pdf.get_y(), w=180)
-            pdf.output("NeuroTwin_Full_Report.pdf")
-            st.success("✓ Full report with 3D brain saved to NeuroTwin_Full_Report.pdf!")
+            st.success("✓ Full report with 3D brain saved as brain_snapshot.png!")
         except Exception as e:
             st.error(f"Export failed: {str(e)}")
 
