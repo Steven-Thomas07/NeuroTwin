@@ -104,22 +104,49 @@ def run_dashboard(twin=None):
             st.error(f"Export failed: {str(e)}")
 
     st.subheader("Voice Tone Analysis")
-    audio_data = st.audio_input("🎤 Record your voice for tone analysis")
-    if audio_data:
-        st.audio(audio_data, format="audio/wav")
-        st.info("🎙️ Analyzing voice tone...")
-        with st.spinner("Processing audio..."):
-            import time
-            time.sleep(1.0)
-        # Mock result based on audio length or random
-        tone = np.random.choice(["anxious", "calm", "depressed"])
-        st.write(f"🔊 Detected tone: **{tone.upper()}**")
-        if tone == "anxious":
-            st.error("⚠️ Voice confirms high stress!")
-        elif tone == "calm":
-            st.success("✓ Voice analysis shows calm demeanor")
-        else:
-            st.warning("⚠️ Voice suggests depressed mood")
+    col_audio, col_text = st.columns(2)
+    with col_audio:
+        audio_data = st.audio_input("🎤 Record your voice for tone analysis")
+        if audio_data:
+            st.audio(audio_data, format="audio/wav")
+            st.info("🎙️ Analyzing voice tone...")
+            with st.spinner("Processing audio..."):
+                import time
+                time.sleep(1.0)
+            # Mock result based on audio length or random
+            tone = np.random.choice(["anxious", "calm", "depressed"])
+            st.write(f"🔊 Detected tone: **{tone.upper()}**")
+            if tone == "anxious":
+                st.error("⚠️ Voice confirms high stress!")
+            elif tone == "calm":
+                st.success("✓ Voice analysis shows calm demeanor")
+            else:
+                st.warning("⚠️ Voice suggests depressed mood")
+    with col_text:
+        st.markdown("**Or type what you'd say:**")
+        voice_text = st.text_input("Type your voice input here", placeholder="e.g., I'm feeling really stressed today...")
+        if st.button("Analyze Text Tone"):
+            if voice_text.strip():
+                st.info("📝 Analyzing text tone...")
+                with st.spinner("Processing text..."):
+                    import time
+                    time.sleep(0.5)
+                # Mock result based on text content
+                if "stressed" in voice_text.lower() or "anxious" in voice_text.lower():
+                    tone = "anxious"
+                elif "calm" in voice_text.lower() or "happy" in voice_text.lower():
+                    tone = "calm"
+                else:
+                    tone = np.random.choice(["anxious", "calm", "depressed"])
+                st.write(f"🔊 Detected tone: **{tone.upper()}**")
+                if tone == "anxious":
+                    st.error("⚠️ Text suggests high stress!")
+                elif tone == "calm":
+                    st.success("✓ Text analysis shows calm demeanor")
+                else:
+                    st.warning("⚠️ Text suggests depressed mood")
+            else:
+                st.warning("Please enter some text to analyze.")
 
     st.sidebar.success("NeuroTwin Active | Privacy: 100% Local")
 
