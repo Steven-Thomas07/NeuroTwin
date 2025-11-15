@@ -5,6 +5,3 @@ numpy
 pyttsx3
 fpdf2
 kaleido
-openpyxl
-webrtcvad
-altair==5.3.0

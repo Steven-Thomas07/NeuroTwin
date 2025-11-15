@@ -2,4 +2,4 @@
 - [x] Add the 5 new features code to NeuroTwin/dashboard/app.py at the bottom before if __name__ == "__main__"
 - [x] Ensure df is defined as twin.df for the new features
 - [x] Test the app locally
-- [ ] Deploy to Streamlit Cloud
+- [x] Deploy to Streamlit Cloud
