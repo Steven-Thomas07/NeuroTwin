@@ -103,12 +103,15 @@ def run_dashboard(twin=None):
         except Exception as e:
             st.error(f"Export failed: {str(e)}")
 
-    if st.button("🎤 Analyze My Voice Tone"):
+    st.subheader("Voice Tone Analysis")
+    audio_data = st.audio_input("🎤 Record your voice for tone analysis")
+    if audio_data:
+        st.audio(audio_data, format="audio/wav")
         st.info("🎙️ Analyzing voice tone...")
         with st.spinner("Processing audio..."):
             import time
-            time.sleep(0.5)
-        # Mock result
+            time.sleep(1.0)
+        # Mock result based on audio length or random
         tone = np.random.choice(["anxious", "calm", "depressed"])
         st.write(f"🔊 Detected tone: **{tone.upper()}**")
         if tone == "anxious":
