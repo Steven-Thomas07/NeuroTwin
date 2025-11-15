@@ -2,6 +2,4 @@ streamlit>=1.28
 plotly>=5.15
 pandas
 numpy
-pyttsx3
-fpdf2
 kaleido
