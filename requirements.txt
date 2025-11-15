@@ -5,3 +5,9 @@ plotly
 kaleido
 pyttsx3
 fpdf
+streamlit-webrtc
+speech_recognition
+aiortc
+av
+cryptography
+pyopenssl

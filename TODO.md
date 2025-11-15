@@ -1,0 +1,5 @@
+- [x] Update NeuroTwin/requirements.txt with new dependencies: plotly>=5.15, streamlit>=1.28, pandas, numpy, pyttsx3, fpdf2, kaleido
+- [x] Add the 5 new features code to NeuroTwin/dashboard/app.py at the bottom before if __name__ == "__main__"
+- [x] Ensure df is defined as twin.df for the new features
+- [x] Test the app locally
+- [ ] Deploy to Streamlit Cloud

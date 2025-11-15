@@ -61,9 +61,9 @@ def run_dashboard(twin=None):
     risk = twin.predict_depression()
 
     # === AFTER RISK CALCULATION ===
-    df = None
+    df = twin.df.copy()
     if 'live_df' in st.session_state:
-        df = st.session_state.live_df
+        df = pd.concat([df, st.session_state.live_df], ignore_index=True)
 
     # Trend chart
     if df is not None and len(df) > 1:
@@ -136,6 +136,78 @@ def run_dashboard(twin=None):
             st.warning("⚠️ Voice suggests depressed mood")
 
     st.sidebar.success("NeuroTwin Active | Privacy: 100% Local")
+
+    # === 9. MOOD TREND HEATMAP ===
+    if len(df) > 1:
+        st.subheader("Mood & Stress Heatmap (Last 7 Days)")
+        df_heatmap = df.copy()
+        df_heatmap['date'] = pd.to_datetime(df_heatmap['date'])
+        df_heatmap = df_heatmap.set_index('date').tail(7)
+
+        # Create pivot: days x stress
+        heatmap_data = df_heatmap.pivot_table(
+            values='stress', index=df_heatmap.index.day_name(),
+            columns=df_heatmap.index.date, aggfunc='mean', fill_value=0
+        )
+        heatmap_data = heatmap_data.reindex(['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'])
+
+        import plotly.express as px
+        fig_heat = px.imshow(
+            heatmap_data.values,
+            labels=dict(x="Date", y="Day", color="Stress Level"),
+            x=[d.strftime('%b %d') for d in heatmap_data.columns],
+            y=heatmap_data.index,
+            color_continuous_scale="Reds",
+            text_auto=True
+        )
+        fig_heat.update_layout(height=300, margin=dict(t=30, b=0))
+        st.plotly_chart(fig_heat, width='stretch')
+
+    # === 10. AI THERAPY SUGGESTION ===
+    st.subheader("Personalized Therapy Tips")
+    if risk > 75:
+        st.error("**URGENT:** Practice 4-7-8 breathing now: Inhale 4s, hold 7s, exhale 8s.")
+        st.info("**CBT Tip:** Write down 3 things you're grateful for.")
+    elif risk > 50:
+        st.warning("**Try:** 10-minute guided meditation (YouTube: 'anxiety relief')")
+        st.info("**Journal Prompt:** What triggered your stress today?")
+    else:
+        st.success("**Great job!** Reward yourself with a 15-min walk in nature.")
+        st.info("**Maintain:** Keep sleep >7 hrs tonight.")
+
+    # === 11. SLEEP DEBT TRACKER ===
+    if len(df) > 0:
+        total_sleep = df['sleep_hours'].sum()
+        expected_sleep = len(df) * 7.5
+        sleep_debt = expected_sleep - total_sleep
+        debt_color = "inverse" if sleep_debt > 0 else "normal"
+        st.metric("**Sleep Debt**", f"{sleep_debt:+.1f} hrs", delta=f"vs {len(df)}×7.5 hrs ideal")
+
+    # === 12. EXPORT TO CSV ===
+    if st.button("📥 Export Diary to CSV"):
+        csv = df.to_csv(index=False).encode()
+        st.download_button(
+            "Download Mood Diary",
+            csv,
+            "neurotwin_diary.csv",
+            "text/csv"
+        )
+        st.success("Diary exported!")
+
+    # === 13. DARK MODE TOGGLE ===
+    def set_theme(theme):
+        if theme == "dark":
+            st._config.set_option("theme.base", "dark")
+            st._config.set_option("theme.primaryColor", "#FF6B6B")
+        else:
+            st._config.set_option("theme.base", "light")
+            st._config.set_option("theme.primaryColor", "#4ECDC4")
+
+    theme = st.sidebar.selectbox("Theme", ["light", "dark"], index=0)
+    set_theme(theme)
+    st.sidebar.image("https://img.icons8.com/fluency/48/000000/brain.png", width=60)
+    st.sidebar.markdown("### NeuroTwin v1.0")
+    st.sidebar.markdown(f"**Risk:** {risk}% | **Entries:** {len(df)}")
 
 if __name__ == "__main__":
     run_dashboard()

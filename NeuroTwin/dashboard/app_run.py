@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import pyttsx3
-from fpdf import FPDF
+from fpdf import FPDF  # Fixed import
 import streamlit.components.v1 as components
 from datetime import datetime
 import os
@@ -137,6 +137,9 @@ with col1:
 
     if st.button("📄 Export Full Report (PDF)"):
         try:
+            fig = render_brain(risk)
+            fig.write_image("brain.png")
+            
             pdf = FPDF()
             pdf.add_page()
             pdf.set_font("Arial", 'B', 16)
@@ -161,64 +164,44 @@ with col2:
     fig = render_brain(risk)
     st.plotly_chart(fig, use_container_width=True)
 
-# === 7. REAL MIC INPUT (Web Speech API) ===
-with st.expander("🎤 **Speak Your Mood (Real Voice Detection)**"):
-    st.info("Click 'Speak Now' → Allow mic → Say: 'I am feeling anxious'")
+# === 7. SIMPLIFIED VOICE ANALYSIS (TEXT-BASED Fallback for Easy Testing) ===
+with st.expander("🎙️ **Voice Analysis (Text Simulation for Demo)**"):
+    st.info("**For real mic:** Use Chrome + allow permission. For now, type what you'd say.")
     
-    speech_html = """
-    <div id="result" style="font-size:18px; margin:10px 0;"></div>
-    <button id="btn" onclick="toggle()" style="padding:10px 20px; font-size:16px;">Speak Now</button>
-    <script>
-    let recognizing = false;
-    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-    recognition.lang = 'en-US';
-    recognition.interimResults = false;
+    speech_text = st.text_area("**Type what you'd say into the mic** (e.g., 'I'm feeling anxious')", "I'm happy today")
+    if st.button("Analyze Speech"):
+        if speech_text:
+            text_lower = speech_text.lower()
+            if any(word in text_lower for word in ["anxious", "sad", "depressed", "stress", "bad", "worried", "angry", "frustrated"]):
+                emotion = "anxious"
+                risk_level = "high"
+            elif any(word in text_lower for word in ["happy", "good", "great", "calm", "relaxed", "excited"]):
+                emotion = "happy"
+                risk_level = "low"
+            else:
+                emotion = "neutral"
+                risk_level = "moderate"
 
-    function toggle() {
-        if (recognizing) {
-            recognition.stop();
-            document.getElementById('btn').innerHTML = 'Speak Now';
-            recognizing = false;
-        } else {
-            recognition.start();
-            document.getElementById('btn').innerHTML = 'Listening...';
-            recognizing = true;
-        }
-    }
-
-    recognition.onresult = function(e) {
-        const text = e.results[0][0].transcript;
-        document.getElementById('result').innerHTML = '<strong>You said:</strong> ' + text;
-        document.getElementById('btn').innerHTML = 'Speak Again';
-        recognizing = false;
-        // Send to Streamlit
-        window.parent.postMessage({type: 'speech', text: text}, '*');
-    };
-
-    recognition.onerror = function() {
-        document.getElementById('result').innerHTML = 'Error: Try again';
-        document.getElementById('btn').innerHTML = 'Speak Now';
-        recognizing = false;
-    };
-    </script>
-    """
-    components.html(speech_html, height=180)
-
-    # Capture speech via JS message
-    speech_text = st.text_input("**Transcribed Speech** (or type if mic fails)", "")
-    if st.button("Analyze Voice"):
-        text = speech_text.strip().lower()
-        if text:
-            sentiment = "high" if any(w in text for w in ["anxious", "sad", "depressed", "stress", "bad"]) else "low"
-            st.write(f"**DetectedDetected: {sentiment.upper()} risk mood**")
-            if sentiment == "high":
-                st.session_state.df.loc[len(st.session_state.df)] = [
-                    datetime.now().strftime("%Y-%m-%d"), "anxious", 8.5, 4.0, text
-                ]
-                st.success("High-stress mood added from voice!")
+            st.write(f"**Detected Emotion:** {emotion.upper()}")
+            st.write(f"**Risk Level:** {risk_level.upper()}")
+            
+            if risk_level == "high":
+                st.error("⚠️ Voice indicates high stress/anxiety")
+                # Add to mood data
+                new_entry = pd.DataFrame([{
+                    "date": datetime.now().strftime("%Y-%m-%d"),
+                    "mood": "anxious",
+                    "stress": 8.0,
+                    "sleep_hours": 5.0,
+                    "notes": f"Voice: {speech_text}"
+                }])
+                st.session_state.df = pd.concat([st.session_state.df, new_entry], ignore_index=True)
+                st.success("Mood data updated from voice!")
                 st.rerun()
             else:
-                st.success("Calm mood detected.")
+                st.success("✅ Voice analysis shows stable mood")
+        else:
+            st.warning("No speech text. Try again.")
 
 # === 8. RISK TREND CHART ===
 if len(df) > 1:
