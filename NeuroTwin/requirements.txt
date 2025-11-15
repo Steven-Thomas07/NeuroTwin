@@ -3,3 +3,5 @@ plotly>=5.15
 pandas
 numpy
 kaleido
+librosa
+soundfile

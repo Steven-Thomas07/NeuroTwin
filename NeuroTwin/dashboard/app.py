@@ -111,10 +111,27 @@ def run_dashboard(twin=None):
             st.audio(audio_data, format="audio/wav")
             st.info("🎙️ Analyzing voice tone...")
             with st.spinner("Processing audio..."):
-                import time
-                time.sleep(1.0)
-            # Mock result based on audio length or random
-            tone = np.random.choice(["anxious", "calm", "depressed"])
+                import io
+                import librosa
+                import soundfile as sf
+                # Convert audio bytes to numpy array
+                audio_bytes = audio_data.getvalue()
+                audio_array, sample_rate = sf.read(io.BytesIO(audio_bytes))
+                # Extract features
+                mfccs = librosa.feature.mfcc(y=audio_array, sr=sample_rate, n_mfcc=13)
+                chroma = librosa.feature.chroma_stft(y=audio_array, sr=sample_rate)
+                spectral_centroid = librosa.feature.spectral_centroid(y=audio_array, sr=sample_rate)
+                # Simple heuristic: higher pitch/energy might indicate anxiety
+                avg_mfcc = np.mean(mfccs)
+                avg_chroma = np.mean(chroma)
+                avg_centroid = np.mean(spectral_centroid)
+                # Mock analysis based on features
+                if avg_centroid > 2000 or avg_mfcc > 0:
+                    tone = "anxious"
+                elif avg_chroma > 0.5:
+                    tone = "calm"
+                else:
+                    tone = "depressed"
             st.write(f"🔊 Detected tone: **{tone.upper()}**")
             if tone == "anxious":
                 st.error("⚠️ Voice confirms high stress!")
