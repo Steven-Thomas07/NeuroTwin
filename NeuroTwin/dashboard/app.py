@@ -167,7 +167,31 @@ def run_dashboard(twin=None):
 
     st.sidebar.success("NeuroTwin Active | Privacy: 100% Local")
 
+    # === 9. MOOD TREND HEATMAP ===
+    if len(df) > 1:
+        st.subheader("Mood & Stress Heatmap (Last 7 Days)")
+        df_heatmap = df.copy()
+        df_heatmap['date'] = pd.to_datetime(df_heatmap['date'])
+        df_heatmap = df_heatmap.set_index('date').tail(7)
 
+        # Create pivot: days x stress
+        heatmap_data = df_heatmap.pivot_table(
+            values='stress', index=df_heatmap.index.day_name(),
+            columns=df_heatmap.index.date, aggfunc='mean', fill_value=0
+        )
+        heatmap_data = heatmap_data.reindex(['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'])
+
+        import plotly.express as px
+        fig_heat = px.imshow(
+            heatmap_data.values,
+            labels=dict(x="Date", y="Day", color="Stress Level"),
+            x=[d.strftime('%b %d') for d in heatmap_data.columns],
+            y=heatmap_data.index,
+            color_continuous_scale="Reds",
+            text_auto=True
+        )
+        fig_heat.update_layout(height=300, margin=dict(t=30, b=0))
+        st.plotly_chart(fig_heat, use_container_width=True)
 
     # === 10. AI THERAPY SUGGESTION ===
     st.subheader("Personalized Therapy Tips")
