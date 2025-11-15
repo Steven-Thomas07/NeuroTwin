@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
-import pyttsx3
+try:
+    import pyttsx3
+    TTS_AVAILABLE = True
+except ImportError:
+    TTS_AVAILABLE = False
 from fpdf import FPDF  # Fixed import
 import streamlit.components.v1 as components
 from datetime import datetime
@@ -123,13 +127,16 @@ with col1:
     if risk > 75:
         st.error("**CRISIS ALERT: Seek help now**")
         if st.button("🔊 Play Voice Alert"):
-            try:
-                engine = pyttsx3.init()
-                engine.say("Crisis detected. You are not alone. Contact a therapist now.")
-                engine.runAndWait()
-                st.success("Alert played!")
-            except:
-                st.warning("Voice not supported. Text alert shown.")
+            if TTS_AVAILABLE:
+                try:
+                    engine = pyttsx3.init()
+                    engine.say("Crisis detected. You are not alone. Contact a therapist now.")
+                    engine.runAndWait()
+                    st.success("Alert played!")
+                except:
+                    st.warning("Voice not supported. Text alert shown.")
+            else:
+                st.warning("TTS not available. Text alert shown.")
     elif risk > 50:
         st.warning("Elevated Risk: Try mindfulness")
     else:
